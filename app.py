@@ -17,7 +17,7 @@ def fetch_data(from_date, to_date):
         return []
 
 
-st.title("Session-Verfügbarkeiten")
+st.title("Verfügbarkeit vergangener Sitzungen")
 
 # Datumsfilter in Streamlit
 from_date = st.date_input("Von", pd.Timestamp.today() - pd.Timedelta(days=7))
