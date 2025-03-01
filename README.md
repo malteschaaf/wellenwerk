@@ -1,8 +1,8 @@
 # Wellenwerk Project
 
 ## Overview
-This Project is focused on retrieving historical data of wellenwerks indoor rapid surf wave. The goal is to track slot availabilities as slots usually have a capacity of 12 people for a limited time (e.g. 60 minutes for an advanced session), which means that surfers try to book into sessions with less people. In order to get insights about the booking behavior of wellenwerk surfers, the availabilities are tracked. To do so wellenwerks booking api is fetched at regular intervals and the availability of each session is stored in a supabase database.
-The historical data is then presented in a streamlit app.
+This Project is focused on retrieving historical data of wellenwerks indoor rapid surf wave. The goal is to track slot availabilities as slots usually have a capacity of 12 people for a limited time (e.g. 60 minutes for an advanced session), which means that surfers try to book into sessions with less people. In order to get insights about the booking behavior of wellenwerk surfers, the availabilities are tracked. To do so wellenwerks booking api is fetched at regular intervals and the availability of each session is stored in a supabase database.  
+The historical data is then presented in a streamlit app.  
 The future goal of this project is to forecast the booking behaviour of wellenwerk customers. 
 
 ## Key Features
@@ -29,5 +29,7 @@ The cache stores the most recent availability data to avoid repeated database qu
 
 ## Usage
 The Wellenwerk Project is accessible via the following URL:
+
 https://wellenwerk.streamlit.app
+
 Use this link to view and interact with the session data in real-time. The dashboard allows you to check availability for different sessions and times.
