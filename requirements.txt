@@ -1,4 +1,4 @@
-pandas
-requests
-streamlit
-streamlit-calendar
+streamlit==1.31.0
+pandas>=2.0.3
+requests>=2.31.0
+streamlit-calendar>=0.0.6
